@@ -2,3 +2,7 @@ name: ParryPlugin
 version: '1.0-SNAPSHOT'
 main: com.skrewbar.parryPlugin.ParryPlugin
 api-version: '1.21'
+commands:
+  parry:
+    description: set properties of ParryPlugin
+    usage: /parry [cooldown/parryTime] [Int]
